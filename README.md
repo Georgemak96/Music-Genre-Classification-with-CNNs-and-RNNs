@@ -1,6 +1,6 @@
 # Music Genre Classification with CNNs and RNNs
 
-This repository contains my implementation for **Assessment 2: Music Genre Classification**, where the goal is to classify music genres using log-transformed Mel spectrograms derived from the GTZAN dataset. The project explores multiple deep learning architectures and optimization strategies to achieve high classification accuracy.
+This repository contains my implementation for **Music Genre Classification**, where the goal is to classify music genres using log-transformed Mel spectrograms derived from the GTZAN dataset. The project explores multiple deep learning architectures and optimization strategies to achieve high classification accuracy.
 
 
 ## Dataset

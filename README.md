@@ -2,7 +2,6 @@
 
 This repository contains my implementation for **Assessment 2: Music Genre Classification**, where the goal is to classify music genres using log-transformed Mel spectrograms derived from the GTZAN dataset. The project explores multiple deep learning architectures and optimization strategies to achieve high classification accuracy.
 
----
 
 ## Dataset
 
@@ -24,7 +23,6 @@ validation_dataset = tf.data.Dataset.load('<path_to_val>')
 
 This section summarizes the three models implemented for music genre classification using log-transformed Mel spectrograms. Each model was trained for 50 epochs and evaluated on both training and validation sets.
 
----
 
 ### P1.1 – Shallow Parallel CNN
 
@@ -52,7 +50,6 @@ This section summarizes the three models implemented for music genre classificat
 - Validation Accuracy: ~70%
 - Observation: Overfitting detected — training accuracy high, validation loss increases after a point.
 
----
 
 ### P1.2 – CNN-RNN Hybrid
 
@@ -76,7 +73,6 @@ This section summarizes the three models implemented for music genre classificat
 - Validation Accuracy: >50%
 - Observation: Balanced training and validation performance, minimal overfitting.
 
----
 
 ### P2 – Enhanced CNN-BiLSTM Model
 
@@ -100,7 +96,6 @@ This section summarizes the three models implemented for music genre classificat
 - Final Validation Accuracy: **87%**
 - Observation: Best-performing model with minimal validation loss and strong generalization.
 
----
 
 ### Visualizations
 

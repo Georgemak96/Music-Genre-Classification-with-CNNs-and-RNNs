@@ -15,7 +15,6 @@ To use the dataset:
 2. Place them in your Google Drive.
 3. Mount your Drive in Colab and load the data using:
 
-```python
 train_dataset = tf.data.Dataset.load('<path_to_train>')
 validation_dataset = tf.data.Dataset.load('<path_to_val>')
 
